@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sosyal Medya Uzmanı</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #555;
+    margin-right: 30px;
+  }
+
+  .profile-text h1 {
+    margin: 0;
+    color: #333;
+  }
+
+  .profile-text p {
+    margin: 10px 0 20px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  .social-links a {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+
+  .social-links img {
+    width: 45px;
+    height: 45px;
+    transition: transform 0.3s;
+  }
+
+  .social-links a:hover img {
+    transform: scale(1.2);
+  }
+
+  a.developer-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+
+  @media(max-width: 600px) {
+    body {
+      height: auto;
+      padding-top: 30px;
+    }
+    .profile-container {
+      flex-direction: column;
+    }
+    .profile-img {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="profile-container">
+  <img src="cengizhan.webp" alt="Profil Fotoğrafı" class="profile-img">
+
+  <div class="profile-text">
+    <h1>Sosyal Medya Uzmanı</h1>
+    <p>SEO çalışmaları, içerik üretimi ve sosyal medya yönetimi ile ilgileniyorum.  
+       Ayrıca çekim ve dış çekim, düğün çekimleri gibi fotoğrafçılık konularına da yoğun ilgi duyuyorum.</p>
+
+    <div class="social-links">
+      <a href="https://instagram.com/kullaniciadi" target="_blank" title="Instagram">
+        <img src="insta.png" alt="Instagram">
+      </a>
+      <a href="https://tiktok.com/@kullaniciadi" target="_blank" title="TikTok">
+        <img src="tiktok.png" alt="TikTok">
+      </a>
+    </div>
+
+    <a href="https://echorise.nl/" class="developer-link">developed by echorise</a>
+  </div>
+</div>
+
+</body>
+</html>
